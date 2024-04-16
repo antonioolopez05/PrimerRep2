@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--El titulo y el icono de la pestaña de arriba del todo-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CrucerosESP</title>
+    <link rel="shortcut icon" href="Imagenes/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body class="bodycontactos">
+    <main>
+        <!--Encabezado del cuerpo-->
+        <header>
+            <img class="logoCabecera" src="Imagenes/logo_cabezera.png">
+            <h1 class="tituloWeb">¡Viaja con nosotros a los mejores precios!</h2>
+        </header>
+
+
+            <!--El menu de la pagina-->
+            <nav>
+                <ul>
+                    <li><a href="fullscreen-background-switch/">Menu </li></a>
+                    <li><a href="inicio.html">Inicio</a></li>
+                    <li><a href="destinos.html">Destinos</a></li>
+                    <li><a href="barcos.html">Barcos</a></li>
+                    <li><a href="precios.html">Precios</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+
+            <!--Ponemos el div para definir el contenido del bloque-->
+            <div class="container">
+
+                <!--Enlaces hacia distintas redes sociales-->
+                <a href="https://www.instagram.com/"> INSTAGRAM</a>
+                <br>
+                <a href="https://www.facebook.com/"> FACEBOOK</a>
+                <br>
+                <a href="https://www.twitter.com/"> TWITTER</a>
+                <br>
+                <a href="https://www.gmail.com/"> GMAIL</a>
+                <br>
+                <a href="#">+34 677 788 127</a>
+                
+            </div>
+
+            <h1 id="tituloform">Formulario Contacto</h1>
+
+            <form action="mails formularios/mails.php" method="post">
+                <label for="fname">Nombre:</label><br>
+                <input type="text" size="40" placeholder= "Introduzca nombre" title="Escribe tu nombre real. Es el que aparecerá en tu..." name="nombre" autofocus required/><br><br>
+                <label for="fname">Contraseña:</label><br>
+                <input type="password" size="15" placeholder= "Introduzca contraseña" title="Escribe la contraseña que desee..." name="password" required/><br><br>
+                <label for="fname">Correo Electronico:</label><br>
+                <input type="email" size="40" placeholder= "usuario@dominio.com" title="Escribe tu correo aqui" name="nombre" required/><br><br>
+                <label for="fname">Fecha de nacimiento:</label><br>
+                <input type="date" value="2000-01-01" name="nacimiento" title="La fecha en la que naciste." required><br><br>
+                <label for="fname">¿Como puntuas el formulario de contacto?</label><br>
+                <input type="number" min="0" max="10" step="1" value="5" title="Puntua el formulario para poder mejorarlo en un futuro..." name="formulario" required><br><br>
+                <label for="fname">Comentario:</label><br>
+                <input type="text" size="100" placeholder= "Introduzca su comentario" title="Escribe tu comentario o duda." name="comentario"><br><br>
+                <label for="fname">¿Donde irias de vacaciones?</label><br>
+                <input type="checkbox" name="destino1" value="Damasco" > Damasco (Siria)<br>
+                <input type="checkbox" name="destino2" value="Kabul" checked> Kabul (Afganistán)<br>
+                <input type="checkbox" name="destino3" value="Belgrado" > Belgrado (Serbia)<br><br><br>
+
+                <a href="formularioenviado.html"><input id="enviar" type="submit" value="Enviar los datos"/></a>
+
+
+            </form>
+
+            <!--Footer-->
+            <footer class="footercontactos">
+                <h2>
+                    &copy; CrucerosESP<br>
+                </h2>
+                
+                <!--Politica de privacidad-->
+                <h5>
+                    Nota informativa sobre privacidad en aplicación de lo dispuesto en el artículo 13 del Reglamento (UE) 2016/679 Del Parlamento Europeo 
+    
+                    En aplicación de lo dispuesto en el artículo 13   del Reglamento (UE) 2016/679 Del Parlamento Europeo y Del Consejo de 27 de abril de 2016, relativo a la protección de las personas físicas en lo que respecta al tratamiento de datos personales y a la libre circulación de estos datos y por el que se deroga la Directiva 95/46/CE   (en adelante, RGPD)
+                </h5>
+            </footer>
+        </main>
+    </body>
+</html>
